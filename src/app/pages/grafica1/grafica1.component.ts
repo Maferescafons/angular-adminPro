@@ -16,4 +16,11 @@ export class Grafica1Component {
       { data: [ 35, 45, 100 ] }
     ]
   };
+  public labels2: string[] = [ 'algo1', 'algo2', 'algo3' ];
+  public data2: ChartData<'doughnut'> = {
+    labels: this.labels2,
+    datasets: [
+      { data: [ 250, 290, 150 ] }
+    ]
+  };
   }
